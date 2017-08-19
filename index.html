@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Movie Trivia </title>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  	<!-- Bootstrap's javascript file that allows the dropdown menu to work  -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  	<!--                CSS           -->
+  	<link rel="stylesheet" href="assets/css/style.css">
+
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+
+
+<div class="jumbotron jumbotron-fluid">
+
+   
+   <!--Row 1 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Title -->
+   			<h1 id="title"> Movie Trivia </h1>
+
+   		</div>
+   	</div>
+
+  <div class="container questionsContainer">									<!-- insideContainer used to hide everything except title above until start button is pressed -->
+
+   	<!--Row 2 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Time -->
+   			<h3 id="timeText"> Time Remaining: <span id="time"> </span> </h3>
+
+   		</div>
+   	</div>
+
+   	<!--Row 3 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Question 1 -->
+   			<form id="q1">
+
+   				<h3> Which Michael Mann film did Robert De Niro star in? </h3>
+   				<br>
+   				<input class = "rad1" name="Q1" type="radio" value="heat"> Heat
+   				<input class = "rad1" name="Q1" type="radio" value="casino"> Casino
+   				<input class = "rad1" name="Q1" type="radio" value="goodfellas"> Goodfellas 
+   				<input class = "rad1" name="Q1" type="radio" value="ragingbull"> Raging Bull
+   			</form>
+
+   		</div>
+   	</div>
+
+   	<!--Row 4 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Question 2 -->
+   			<form id="q2">
+
+   				<h3> Which Batman Movie did Christian Bale star in? </h3>
+   				<br>
+   				<input class = "rad2" name="Q2" type="radio" value="batmanreturns"> Batman Returns
+   				<input class = "rad2" name="Q2" type="radio" value="batmanforever"> Batman Forever
+   				<input class = "rad2" name="Q2" type="radio" value="batman&robin"> Batman and Robin
+   				<input class = "rad2" name="Q2" type="radio" value="darkknight"> Dark Knight
+   			</form>
+
+   		</div>
+   	</div>
+
+   	<!--Row 5 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Question 3 -->
+   			<form id="q3">
+
+   				<h3> Harrison Ford plays a good cop hides in an Amish Community to protect an amish boy who witnessed a murder commited by dirty cops in what film? </h3>
+   				<br>
+   				<input class = "rad3" name="Q3" type="radio" value="BladeRunner"> BladeRunner
+   				<input class = "rad3" name="Q3" type="radio" value="Witness"> Witness
+   				<input class = "rad3" name="Q3" type="radio" value="IndianaJones"> Indiana Jones
+   				<input class = "rad3" name="Q3" type="radio" value="PatriotGames"> Patriot Games
+   			</form>
+
+   		</div>
+   	</div>
+
+   	<!--Row 6 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Question 4 -->
+   			<form id="q4">
+
+   				<h3> Alec Baldwin starred in which Tom Clancy Film where a Russian Commander defects to the U.S.? </h3>
+   				<br>
+   				<input class = "rad4" name="Q4" type="radio" value="PatriotGames"> Patriot Games
+   				<input class = "rad4" name="Q4" type="radio" value="RedOctober"> The Hunt For Red October
+   				<input class = "rad4" name="Q4" type="radio" value="ClearPresidentDanger"> Clear and President Danger
+   				<input class = "rad4" name="Q4" type="radio" value="SumOfAllFears"> Sum of All Fears
+   			</form>
+
+   		</div>
+   	</div>
+
+   	<!--Row 7 -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Question 4 -->
+   			<form id="q5">
+
+   				<h3>  Which Terminator Film Does Arnold Schwarzenegger fight the T100 made of liquid metal? </h3>
+   				<br>
+   				<input class = "rad5" name="Q5" type="radio" value="PatriotGames"> Terminator 1
+   				<input class = "rad5" name="Q5" type="radio" value="RedOctober"> Terminator 2
+   				<input class = "rad5" name="Q5" type="radio" value="ClearPresidentDanger"> Terminator 3
+   				<input class = "rad5" name="Q5" type="radio" value="SumOfAllFears"> Terminator Salvation
+   			</form>
+
+   		</div>
+   	</div>
+
+   	<!--Row Button -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+			
+			<!-- Done Button -->
+			<button type="button" id="done" class="btn btn-primary btn-lg btn-block">Done</button>
+	
+   		</div>
+   	</div>
+
+
+
+
+  </div>	<!-- End of innter container/questionContainer -->
+
+  <!--Row Start -->
+   <div class="row">
+
+   		<div class="col-lg-12">
+
+   			<!-- Start Button -->
+   			<button type="button" id="start" class="btn btn-primary btn-lg btn-block">Start</button>
+
+   		</div>
+   	</div>
+
+   	<!-- Display Results -->
+   	<div class="container resultsContainer">
+	
+		<!--Row Results-->
+   		<div class="row">
+
+   			<div class="col-lg-12 result">
+			
+			<!-- Results -->
+   			<h2> All Done! </h2>
+   			<h3> Correct Answers: <span id="correct"> </span> </h3>
+   			<h3> Incorrect Answers: <span id="incorrect"> </span> </h3>
+   			<h3> Unanswered: <span id="unanswered"> </span> </h3>
+
+			</div>
+   		</div>
+
+   	</div>  <!-- End of resultsContainer -->
+
+</div>		<!-- End of jumbotron -->
+
+ 
+</div>		<!-- End of outer container -->
+
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

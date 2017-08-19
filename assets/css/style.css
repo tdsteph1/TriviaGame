@@ -1,0 +1,47 @@
+body
+{
+	background: url("../images/movie.jpg") no-repeat fixed center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.jumbotron 
+{
+	margin-top: 74px;
+	width: 1123px;
+	position: relative;
+	left: 18px;
+}
+
+#title
+{
+	text-align: center;
+	position: relative;
+	bottom: 40px;
+}
+
+.questionsContainer
+{
+	display: none;
+}
+
+.resultsContainer
+{
+	display: none;
+}
+
+#start
+{
+	background: red;
+}
+
+#done
+{
+	background: red;
+}
+.result
+{
+	text-align: center;
+}
